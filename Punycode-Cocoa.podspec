@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/Wevah/Punycode-Cocoa"
   s.license          = 'BSD'
   s.authors          = { "Nate Weaver (Wevah)" => "wevah [snail] derailer [splot] org" }
-  s.source           = { :git => "https://github.com/Wevah/Punycode-Cocoa.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/landonKHJ/IDNA-Cocoa.git", :tag => s.version.to_s }
   s.requires_arc     = true
-  s.source_files     = 'Shared/**/*'
+  s.source_files     = 'Sources/**/*'
 end
